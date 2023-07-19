@@ -59,9 +59,7 @@ app.get('/api/statelist/:id', (req, res, next) => {
 app.get('/api/statelist', (req, res) => {
   const jsonData = JSON.parse(fs.readFileSync(statelistFilePath, 'utf8'));
   res.json(jsonData);
-});
-
-// API endpoint to get user data, statelist, and access level by ID
+});// API endpoint to get user data, statelist, and access level by ID
 app.get('/api/getUserData/:id', (req, res, next) => {
   const userId = req.params.id;
   const usersData = JSON.parse(fs.readFileSync(usersFilePath, 'utf8'));
@@ -70,18 +68,15 @@ app.get('/api/getUserData/:id', (req, res, next) => {
 
   const userData = usersData[userId];
   const userStatelist = statelistData[userId];
-  const userAccessLevel = accessLevelData[userId];
-  
+  const userAccessLevel = accessLevelData[userData.accessLevel]; // Retrieve access level based on user's accessLevel property
 
   if (userData && userStatelist && userAccessLevel) {
     const userDataWithStatelistAndAccessLevel = {
       ...userData,
       statelist: userStatelist.statelist,
-      accessLevel: userAccessLevel.accessLevel
+      // accessLevel: userAccessLevel.accessLevel
     };
-    console.log("userData")
-    console.log(userData)
-    // console.log(userDataWithStatelistAndAccessLevel)
+
     res.json(userDataWithStatelistAndAccessLevel);
   } else {
     const error = new Error('User data not found');
