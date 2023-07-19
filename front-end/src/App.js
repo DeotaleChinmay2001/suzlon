@@ -1,15 +1,21 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import UserDetail from './components/UserDetail';
+import './App.css';
+import { Routes, Route, BrowserRouter } from "react-router-dom"
+import Home from './components/Home';
+import { Grid } from '@mui/material';
 
-function App() {
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/users/:userId" element={<UserDetail />} />
-      </Routes>
-    </BrowserRouter>
+    <Grid container justifyContent={"center"} >
+      <Grid item md={10}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/users/:userId" exact element={<Home />}>
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </Grid>
+    </Grid>
   );
 }
 
-export default App;
+
