@@ -1,0 +1,46 @@
+/*-------- global --------*/
+body {
+    background-color: #f0f0f0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.card-container {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Slightly less transparent border */
+    border-radius: 4px;
+    width: 200px; /* You can adjust the width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Added a white background */
+    transition: transform 0.2s, box-shadow 0.2s; /* Added smooth transitions on hover */
+}
+
+.card-icon {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #702082;
+    color: #fff;
+}
+
+.card-icon i {
+    font-size: 20px;
+}
+
+.card-data {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Improved box shadow on hover */
+}

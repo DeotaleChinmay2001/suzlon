@@ -1,0 +1,85 @@
+{
+  "1": {
+    "statelist": [
+      "Karnataka",
+      "Maharashtra",
+      "Rajasthan"
+    ]
+  },
+  "2": {
+    "statelist": [
+      "Gujarat",
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ]
+  },
+  "3": {
+    "statelist": [
+      "Uttar Pradesh",
+      "West Bengal",
+      "Madhya Pradesh"
+    ]
+  },
+  "4": {
+    "statelist": [
+      "Jharkhand",
+      "Himachal Pradesh",
+      "Chhattisgarh",
+      "Arunachal Pradesh"
+    ]
+  },
+  "5": {
+    "statelist": [
+      "Delhi",
+      "Jammu and Kashmir",
+      "Manipur"
+    ]
+  },
+  "6": {
+    "statelist": [
+      "Sikkim",
+      "Meghalaya",
+      "Nagaland",
+      "Mizoram"
+    ]
+  },
+  "7": {
+    "statelist": [
+      "Maharashtra",
+      "Kerala",
+      "Uttar Pradesh",
+      "Gujarat",
+      "Rajasthan",
+      "Odisha"
+    ]
+  },
+  "8": {
+    "statelist": [
+      "Tamil Nadu",
+      "Karnataka",
+      "Bihar",
+      "West Bengal",
+      "Madhya Pradesh",
+      "Haryana",
+      "Maharashtra"
+    ]
+  },
+  "9": {
+    "statelist": [
+      "Uttarakhand",
+      "Punjab",
+      "Haryana"
+    ]
+  },
+  "10": {
+    "statelist": [
+      "Jharkhand",
+      "Himachal Pradesh",
+      "Chhattisgarh",
+      "Arunachal Pradesh",
+      "Telangana",
+      "Kerala",
+      "Gujarat"
+    ]
+  }
+}
