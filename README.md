@@ -1,5 +1,5 @@
 <h1 align="center">
-  AIRBUS AEROTHON 5.0 🛫
+  Suzlon Internship ![image](https://github.com/DeotaleChinmay2001/suzlon/assets/95205222/69be0f93-8ad1-4ee7-93cf-256459aae2f4)
   <br>
   <img src="https://cdn-icons-png.flaticon.com/512/7893/7893979.png" alt="airplane pic" width="300">
   <br>
